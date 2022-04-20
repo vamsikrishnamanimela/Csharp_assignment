@@ -1,0 +1,8 @@
+C:\Users\VM67577\batch1\assignment2\assignment2\bin\Debug\assignment2.exe.config
+C:\Users\VM67577\batch1\assignment2\assignment2\bin\Debug\assignment2.exe
+C:\Users\VM67577\batch1\assignment2\assignment2\bin\Debug\assignment2.pdb
+C:\Users\VM67577\batch1\assignment2\assignment2\obj\Debug\assignment2.csproj.AssemblyReference.cache
+C:\Users\VM67577\batch1\assignment2\assignment2\obj\Debug\assignment2.csproj.SuggestedBindingRedirects.cache
+C:\Users\VM67577\batch1\assignment2\assignment2\obj\Debug\assignment2.csproj.CoreCompileInputs.cache
+C:\Users\VM67577\batch1\assignment2\assignment2\obj\Debug\assignment2.exe
+C:\Users\VM67577\batch1\assignment2\assignment2\obj\Debug\assignment2.pdb
