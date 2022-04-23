@@ -96,7 +96,7 @@ namespace dotnetassignment_2
 
 
             Array.Reverse(ak);
-            Console.WriteLine("array decending order...");
+            Console.WriteLine("array decending order......");
             foreach (int i in ak)
             {
                 Console.WriteLine(i + " ");
