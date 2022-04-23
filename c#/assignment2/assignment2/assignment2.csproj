@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C13B5FBA-8223-4214-823F-2232B816DBA6}</ProjectGuid>
+    <ProjectGuid>{35A00062-AE56-4661-9AA0-BD816FB60B7F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Csharp_assignamentNo2</RootNamespace>
-    <AssemblyName>Csharp_assignamentNo2</AssemblyName>
+    <RootNamespace>assignment2</RootNamespace>
+    <AssemblyName>assignment2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

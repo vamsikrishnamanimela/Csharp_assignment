@@ -9,7 +9,7 @@ namespace dotnetassignment_2
     internal class Program
     {
         static void Main(string[] args)
-        { 
+        {
 
             // Reverse the string
             Console.WriteLine("******************Reverse String  program execution is start**********************");
