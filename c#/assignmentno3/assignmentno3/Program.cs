@@ -18,7 +18,7 @@ namespace Assign3
 
         static public void displayResult()
         {
-            Console.WriteLine("*************************Student Marks*********************");
+            Console.WriteLine("**************************Student Marks*********************");
             int[] Studentmarks = new int[5];
             Studentmarks[0] = 90;
             Studentmarks[1] = 70;
