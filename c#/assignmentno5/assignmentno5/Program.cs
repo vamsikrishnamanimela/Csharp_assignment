@@ -38,15 +38,23 @@ namespace Assign5
                    
                     Console.WriteLine("Please Enter Withdrawamount... :");
                     int Withdraw_Amount = int.Parse(Console.ReadLine());
-                    int  Newtotal_balance= Total_balance - Withdraw_Amount;
-                    if (Withdraw_Amount< Total_balance && Withdraw_Amount%20==0 )
+                    
+                     if (Withdraw_Amount< Amount && Withdraw_Amount%100==0 )
+                      {
+                         
+                         int  Newtotal_balance= Amount - Withdraw_Amount;
+                        Console.WriteLine("Take Your Cash  ...:{0} ",Withdraw_Amount);
+                        Console.WriteLine("Your Remaing amount is ...:{0}", Newtotal_balance);
+                    
+                       }
+                    else if (Amount<Withdraw_Amount)
                     {
                         Console.WriteLine("Insuffiecient Balance");
                     }
                     else
                     { 
-                        Console.WriteLine("Your  amount is ...:{0} ",Amount);
-                        Console.WriteLine("Your total amount is ...:{}", Newtotal_balance);
+                        
+                        Console.WriteLine("Please Enter the minimum 100 rupees like...100,200,500,1000");
                     }
 
                 }
@@ -85,7 +93,8 @@ namespace Assign5
             {
 
                 app.WithdrawMoney();
-                Console.WriteLine("TakeCare Of  Your Cash Bye .....");
+                Console.WriteLine("Thank You For Visit  Bye .....");
+
             }
             else if (option == 3)
             {
