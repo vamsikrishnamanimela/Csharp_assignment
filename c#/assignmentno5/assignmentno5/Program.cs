@@ -46,7 +46,7 @@ namespace Assign5
                     else
                     { 
                         Console.WriteLine("Your  amount is ...:{0} ",Amount);
-                        Console.WriteLine("Your total amount is .....:{}", Newtotal_balance);
+                        Console.WriteLine("Your total amount is ...:{}", Newtotal_balance);
                     }
 
                 }
