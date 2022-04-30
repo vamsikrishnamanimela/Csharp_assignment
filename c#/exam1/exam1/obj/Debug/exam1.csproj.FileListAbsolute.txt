@@ -1,8 +1,0 @@
-D:\assignments\c#\exam1\exam1\bin\Debug\exam1.exe.config
-D:\assignments\c#\exam1\exam1\bin\Debug\exam1.exe
-D:\assignments\c#\exam1\exam1\bin\Debug\exam1.pdb
-D:\assignments\c#\exam1\exam1\obj\Debug\exam1.csproj.AssemblyReference.cache
-D:\assignments\c#\exam1\exam1\obj\Debug\exam1.csproj.SuggestedBindingRedirects.cache
-D:\assignments\c#\exam1\exam1\obj\Debug\exam1.csproj.CoreCompileInputs.cache
-D:\assignments\c#\exam1\exam1\obj\Debug\exam1.exe
-D:\assignments\c#\exam1\exam1\obj\Debug\exam1.pdb
