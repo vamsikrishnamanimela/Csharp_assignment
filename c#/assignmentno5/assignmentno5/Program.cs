@@ -53,7 +53,7 @@ namespace Assign5
                 catch (Exception e)
                 {
                     Console.WriteLine("Please Enter the valid numbers......");
-                    Console.WriteLine("Your Enter invalid choices .......");
+                    Console.WriteLine("Your Enter invalid choices ........");
                 }
             }
             public void Balance()
