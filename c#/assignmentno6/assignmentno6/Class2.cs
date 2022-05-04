@@ -37,7 +37,7 @@ namespace Assignmentno6
 
             
             IStudent obj1 = new Resident();
-            obj1.DisplayDetails(2, "Krishna vamsi ");
+            obj1.DisplayDetails(2, "Krishna vamsi");
             
 Console.ReadLine();
 
