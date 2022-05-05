@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace CodebasedTest1
 {
 
-    class PassengerExpection : Exception
+    class PExpection : Exception
     {
-        public PassengerExpection(string msg) : base(msg)
+        public PExpection(string msg) : base(msg)
         {
 
         }
@@ -18,15 +18,15 @@ namespace CodebasedTest1
     {
         int Age;
         string Name;
-        string dateoftravel;
+        string date_of_travel;
         int no_of_tickets;
 
 
-        public Passenger(int age, string name, string date_travel)
+        public Passenger(int age, string name, string date_of_travel)
         {
             this.Age = age;
             this.Name = name;
-            this.dateoftravel = date_travel;
+            this.date_of_travel = date_of_travel;
 
         }
 
@@ -39,7 +39,7 @@ namespace CodebasedTest1
             
             if (no_of_Tickets > 5)
             {
-                throw (new PassengerExpection("Can not book more than 5 tickets"));
+                throw (new PassengerExpection("you Can not book more than 5 tickets"));
             }
             else
             {
@@ -52,13 +52,13 @@ namespace CodebasedTest1
         static void Main(string[] args)
         {
 
-            Passenger ps = new Passenger(20, "vamsikrishna", "10/05/2022");
+            Passenger pa = new Passenger(25, "vamsikrishna", "10/05/2022");
 
             try
             {
-                ps.TicketBooking(6);
+                pa.TicketBooking(6);
             }
-            catch (PassengerExpection ae)
+            catch (PExpection ae)
             {
                 Console.WriteLine(ae.Message);
             }

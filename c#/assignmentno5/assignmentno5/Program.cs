@@ -4,10 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assign5
+namespace Assignment5
 {
-    internal class Program
+    internal class BankException :ApplicationException
     {
+        public BankException(string msg) : base(msg)
+        {
+
+        } 
+
+    }
+    
         class BankApplication
         {
             int Amount = 20000;
@@ -33,36 +40,36 @@ namespace Assign5
             }
             public void WithdrawMoney()
             {
-                try
-                {
+               
                    
                     Console.WriteLine("Please Enter Withdrawamount... :");
                     int Withdraw_Amount = int.Parse(Console.ReadLine());
                     
-                     if (Withdraw_Amount< Amount && Withdraw_Amount%100==0 )
+                     
+                    if (Amount<Withdraw_Amount)
+                    {
+                        throw(New BankException("Insuffiecient Balance"));
+                    }
+                    else if (Withdraw_Amount< Amount && Withdraw_Amount%100==0 )
                       {
                          
-                         int  Newtotal_balance= Amount - Withdraw_Amount;
+                        int  Newtotal_balance= Amount - Withdraw_Amount;
                         Console.WriteLine("Take Your Cash  ...:{0} ",Withdraw_Amount);
                         Console.WriteLine("Your Remaing amount is ...:{0}", Newtotal_balance);
                     
                        }
-                    else if (Amount<Withdraw_Amount)
-                    {
-                        Console.WriteLine("Insuffiecient Balance");
-                    }
                     else
                     { 
                         
                         Console.WriteLine("Please Enter the minimum 100 rupees like...100,200,500,1000");
                     }
 
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine("Please Enter the valid numbers......");
-                    Console.WriteLine("Your Enter invalid choices ........");
-                }
+                
+                //catch (Exception e)
+                //{
+                  //  Console.WriteLine("Please Enter the valid numbers......");
+                    //Console.WriteLine("Your Enter invalid choices ........");
+                //}
             }
             public void Balance()
             {
@@ -73,27 +80,45 @@ namespace Assign5
 
             }
         }
+
+
+
+    class UserDefinedException 
+    { 
+
         static void Main(string[] args)
         {
             BankApplication app= new BankApplication();
+          
+            try
+            {
             Console.WriteLine("Welcome to bank.....");
             Console.WriteLine("Depositamount for 1.....");
             Console.WriteLine(" WithdrawMoney for 2.....");
             Console.WriteLine(" Balance for 3.....");
             Console.WriteLine("Select Your Option .....:");
             int option=int.Parse(Console.ReadLine());
-            if (option == 1)
-            {
-                app.Depositamount();
-                Console.WriteLine("Thankyou For Visit Bye.....");
-
-            }
-
-            else if (option == 2)
+                else if (option == 2)
             {
 
                 app.WithdrawMoney();
                 Console.WriteLine("Thank You For Visit  Bye .....");
+
+            }
+
+            }
+            catch(BankException e)
+            { 
+                Console.WriteLine(e.Message);
+            }
+            catch(BankException e)
+            {
+                Console.WriteLine("some error occured")
+            }
+            if (option == 1)
+            {
+                app.Depositamount();
+                Console.WriteLine("Thankyou For Visit Bye.....");
 
             }
             else if (option == 3)

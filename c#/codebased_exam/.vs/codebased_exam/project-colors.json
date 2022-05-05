@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dd03a464-cf28-4f6f-888d-e3f4bd4da59b": {
+      "ProjectGuid": "dd03a464-cf28-4f6f-888d-e3f4bd4da59b",
+      "DisplayName": "codebased_exam",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
