@@ -34,6 +34,7 @@ namespace CodebasedTest1
 
         {
             this.no_of_tickets = no_of_Tickets;
+            Console.WriteLine($"The passenger details is Age {Age}, Name is {Name}, Date of travel is {dateoftravel}, no.of tickets is {no_of_Tickets}");
             Console.WriteLine(no_of_Tickets);
             
             if (no_of_Tickets > 5)
