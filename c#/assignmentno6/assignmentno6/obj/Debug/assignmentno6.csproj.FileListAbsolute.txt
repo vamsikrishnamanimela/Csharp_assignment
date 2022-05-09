@@ -1,8 +1,0 @@
-D:\assignments\c#\assignmentno6\assignmentno6\bin\Debug\assignmentno6.exe.config
-D:\assignments\c#\assignmentno6\assignmentno6\bin\Debug\assignmentno6.exe
-D:\assignments\c#\assignmentno6\assignmentno6\bin\Debug\assignmentno6.pdb
-D:\assignments\c#\assignmentno6\assignmentno6\obj\Debug\assignmentno6.csproj.AssemblyReference.cache
-D:\assignments\c#\assignmentno6\assignmentno6\obj\Debug\assignmentno6.csproj.SuggestedBindingRedirects.cache
-D:\assignments\c#\assignmentno6\assignmentno6\obj\Debug\assignmentno6.csproj.CoreCompileInputs.cache
-D:\assignments\c#\assignmentno6\assignmentno6\obj\Debug\assignmentno6.exe
-D:\assignments\c#\assignmentno6\assignmentno6\obj\Debug\assignmentno6.pdb
