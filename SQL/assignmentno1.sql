@@ -83,7 +83,7 @@ WHERE DEPTNO
 NOT IN (SELECT DEPTNO FROM EMP);
 
 
---9. Get the names and salaries of all the analysts earning more than 1200 who are based in department 20. Sort the answer by ascending order of name.
+--9. Get the names and salaries of  all the analysts earning more than 1200 who are based in department 20. Sort the answer by ascending order of name.
 
 SELECT ENAME,SAL
 FROM EMP
