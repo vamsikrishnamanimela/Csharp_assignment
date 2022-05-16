@@ -117,10 +117,10 @@ new Employee { EmployeeID = 1010, FirstName = "Sumit", LastName = " Shah", Title
 
             //}
 
-            // Var res=Emp1.OrderByDescending(a)=>a.DOB).take(1);
+            
 
             // Display total number of employee who is youngest in the list
-            var Query10 = (Emp1.OrderByDescending(e => e.DOB).Take(1));
+            var Query10 = (Emp1.OrderByDescending(A => A.DOB).Take(1));
             Console.WriteLine("10)Display total number of employee who is youngest in the list");
             foreach(var Em in Query10)
             {
