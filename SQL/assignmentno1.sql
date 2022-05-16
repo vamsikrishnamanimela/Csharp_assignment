@@ -63,7 +63,7 @@ WHERE  DEPTNO IN (SELECT DEPTNO
 FROM DEPT 
 WHERE DNAME='RESEARCH')
 
---5. Find the number of CLERKS employed. Give it a descriptive heading. 
+--5. Find the number of CLERKS  employed. Give it a descriptive heading. 
 
 SELECT COUNT(*) AS " NUMBER OF CLERKS"
 FROM EMP
@@ -107,7 +107,7 @@ SELECT SAL*12 AS "YEAR SAL"
 FROM EMP
 WHERE ENAME='SMITH'
 
---14. List the name and salary for all employees whose salary is not in the range of 1500 and 2850.
+--14. List the name and salary for all  employees whose salary is not in the range of 1500 and 2850.
 SELECT ENAME ,SAL
 FROM EMP
 WHERE SAL BETWEEN 1500 AND 2850 
