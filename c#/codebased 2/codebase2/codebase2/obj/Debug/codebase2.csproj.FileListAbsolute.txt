@@ -1,0 +1,7 @@
+D:\assignments\c#\codebased 2\codebase2\codebase2\bin\Debug\codebase2.exe.config
+D:\assignments\c#\codebased 2\codebase2\codebase2\bin\Debug\codebase2.exe
+D:\assignments\c#\codebased 2\codebase2\codebase2\bin\Debug\codebase2.pdb
+D:\assignments\c#\codebased 2\codebase2\codebase2\obj\Debug\codebase2.csproj.AssemblyReference.cache
+D:\assignments\c#\codebased 2\codebase2\codebase2\obj\Debug\codebase2.csproj.CoreCompileInputs.cache
+D:\assignments\c#\codebased 2\codebase2\codebase2\obj\Debug\codebase2.exe
+D:\assignments\c#\codebased 2\codebase2\codebase2\obj\Debug\codebase2.pdb
