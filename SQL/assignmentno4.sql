@@ -33,7 +33,7 @@ set @Salary1 = @salary -(@Hra+@Da+@Deductions)
 set @Gross_Salary = @Salary1+(@Hra+@Da+@Deductions)
 print 'Gross_Salary.....:'+cast(@Gross_SAlary as varchar(10))
 set @Net_Salary = @Gross_Salary-@Deductions
-print 'Total Net Salary....: '+cast(@Net_Salary as varchar(10))
+print 'Total Net Salary......: '+cast(@Net_Salary as varchar(10))
 end
 
 --2.Write a T-SQL Program to find the factorial of a given number.
