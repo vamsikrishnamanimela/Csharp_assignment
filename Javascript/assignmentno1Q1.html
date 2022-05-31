@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html> 
+<head>
+
+</head>
+<body>
+
+<div style="border:1px solid red;width:30%">
+    <form>
+	<table>
+	<tr>
+	<td>
+        1st Number : <input type="text" id="firstnumber" /><br>
+		<br>
+		</td>
+		</tr>
+		<tr>
+	<td>
+        2nd Number: <input type="text" id="secondnumber" /><br>
+		</td>
+		</tr>
+	<tr>
+	<td>
+        <input type="button" onClick="mul()" Value="Multiply" />
+			
+        <input type="button" onClick="div()" Value="Divide" />
+			</tr>
+	</td>
+		</table>
+    </form>
+    
+    <p>The Final Result is : <br>
+        <h4 id = "Result"></h4>
+    </p>
+	</div>
+
+    <script type="text/javascript">
+
+     function mul()
+     {
+        num1 = document.getElementById("firstnumber").value;
+        num2 = document.getElementById("secondnumber").value;
+        document.getElementById("result").innerHTML = num1 * num2;
+    }
+
+    function div() 
+    { 
+        num1 = document.getElementById("firstnumber").value;
+        num2 = document.getElementById("secondnumber").value;
+        document.getElementById("Result").innerHTML = num1 / num2;
+    } 
+</script>
+
+	
+
+	
+	
+
+
+
+
+
+</body>
+</html>
+
+
