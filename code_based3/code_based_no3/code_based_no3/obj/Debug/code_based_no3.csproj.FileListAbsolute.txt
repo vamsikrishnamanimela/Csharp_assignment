@@ -1,0 +1,7 @@
+D:\assignments\c#\code_based_no3\code_based_no3\bin\Debug\code_based_no3.exe.config
+D:\assignments\c#\code_based_no3\code_based_no3\bin\Debug\code_based_no3.exe
+D:\assignments\c#\code_based_no3\code_based_no3\bin\Debug\code_based_no3.pdb
+D:\assignments\c#\code_based_no3\code_based_no3\obj\Debug\code_based_no3.csproj.AssemblyReference.cache
+D:\assignments\c#\code_based_no3\code_based_no3\obj\Debug\code_based_no3.csproj.CoreCompileInputs.cache
+D:\assignments\c#\code_based_no3\code_based_no3\obj\Debug\code_based_no3.exe
+D:\assignments\c#\code_based_no3\code_based_no3\obj\Debug\code_based_no3.pdb
