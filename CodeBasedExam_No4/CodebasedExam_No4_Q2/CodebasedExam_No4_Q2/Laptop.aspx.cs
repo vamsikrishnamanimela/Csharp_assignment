@@ -70,10 +70,7 @@ namespace CodebasedExam_No4_Q2
             {
                 TextBox.Text = "Rs 700000";
             }
-            else
-            {
-                TextBox.Text = "Rs 80000";
-            }
+          
         }
 
         protected void SelectedIndexChanged(object sender, EventArgs e)
